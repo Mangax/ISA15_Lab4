@@ -1,0 +1,260 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/isa15/Laboratori/Lab4/Floating_Point_multiplier_assignment/sim
+Efpnormalize
+Z1 w1604994930
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8../src/common/fpnormalize_fpnormalize.vhd
+Z7 F../src/common/fpnormalize_fpnormalize.vhd
+l0
+L17
+VnG2[f`4]Q]G7@aEVb9GW_3
+!s100 BUjUAMkjQc3i8Jl5B5FoX0
+Z8 OL;C;10.7c;67
+32
+Z9 !s110 1617043862
+!i10b 1
+Z10 !s108 1617043861.000000
+Z11 !s90 -work|.work|../src/common/fpnormalize_fpnormalize.vhd|../src/common/fpround_fpround.vhd|../src/common/packfp_packfp.vhd|../src/common/reg_std_logic.vhd|../src/common/reg.vhd|../src/common/unpackfp_unpackfp.vhd|
+!s107 ../src/common/unpackfp_unpackfp.vhd|../src/common/reg.vhd|../src/common/reg_std_logic.vhd|../src/common/packfp_packfp.vhd|../src/common/fpround_fpround.vhd|../src/common/fpnormalize_fpnormalize.vhd|
+!i113 0
+Z12 o-work .work
+Z13 tExplicit 1 CvgOpt 0
+Afpnormalize
+R2
+R3
+R4
+R5
+DEx4 work 11 fpnormalize 0 22 nG2[f`4]Q]G7@aEVb9GW_3
+l35
+L34
+Vk0h<I3[aH<Bdji<fS^3Hz2
+!s100 I6J0=:VN^oWBdKzYW7[Mg3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+Z14 !s107 ../src/common/unpackfp_unpackfp.vhd|../src/common/reg.vhd|../src/common/reg_std_logic.vhd|../src/common/packfp_packfp.vhd|../src/common/fpround_fpround.vhd|../src/common/fpnormalize_fpnormalize.vhd|
+!i113 0
+R12
+R13
+Efpround
+R1
+R2
+R3
+R4
+R5
+R0
+Z15 8../src/common/fpround_fpround.vhd
+Z16 F../src/common/fpround_fpround.vhd
+l0
+L17
+V@a9BfAYL6GFj?ANV?1QUo2
+!s100 Ie14d[iLcC63KLGjc:z<A1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Afpround
+R2
+R3
+R4
+R5
+DEx4 work 7 fpround 0 22 @a9BfAYL6GFj?ANV?1QUo2
+l35
+L34
+V:MnQMM^_U[GcfX=e6jEd;0
+!s100 ndTGM7]9X@o`5EOkU2jll3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Epackfp
+R1
+R3
+R4
+R5
+R0
+Z17 8../src/common/packfp_packfp.vhd
+Z18 F../src/common/packfp_packfp.vhd
+l0
+L16
+VbiRkIFMoELYj8^cZL7l2G1
+!s100 01>7]i`Z0N7NH9g:Ga>l=0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Apackfp
+R3
+R4
+R5
+DEx4 work 6 packfp 0 22 biRkIFMoELYj8^cZL7l2G1
+l34
+L33
+Vi?D1i4[iYggMe?aIBHbnT2
+!s100 boEIjXMzHClblfW8W7BJS0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Ereg
+Z19 w1605603318
+R3
+R4
+R5
+R0
+Z20 8../src/common/reg.vhd
+Z21 F../src/common/reg.vhd
+l0
+L9
+V=b`]W>kgZV^?AYPDg9AlG3
+!s100 P8ffm`kog@I_20QG<E3d<0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Abhe
+R3
+R4
+R5
+DEx4 work 3 reg 0 22 =b`]W>kgZV^?AYPDg9AlG3
+l19
+L18
+VJ5M6<UWZ_flWSabTEC^oh3
+!s100 OKMcg>d^^dU=;^:jLM[;o0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Ereg_std_logic
+Z22 w1605603986
+R3
+R4
+R5
+R0
+Z23 8../src/common/reg_std_logic.vhd
+Z24 F../src/common/reg_std_logic.vhd
+l0
+L9
+VPkb@6ni^ZRST>2e>j@g]K0
+!s100 E7ElZbcXo[O<Nj>2A[0Xe0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Abhe
+R3
+R4
+R5
+DEx4 work 13 reg_std_logic 0 22 Pkb@6ni^ZRST>2e>j@g]K0
+l18
+L17
+VPj2g=d7g7beeLdzVOf;lH0
+!s100 AP1f?:h;S;6CohYz;Z[<J2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Eunpackfp
+R1
+R3
+R4
+R5
+R0
+Z25 8../src/common/unpackfp_unpackfp.vhd
+Z26 F../src/common/unpackfp_unpackfp.vhd
+l0
+L15
+Ve_KC<EYEXS4gz;8BdSUg[2
+!s100 iXK2eKKm@g^[^1N:863BC1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13
+Aunpackfp
+R3
+R4
+R5
+DEx4 work 8 unpackfp 0 22 e_KC<EYEXS4gz;8BdSUg[2
+l37
+L33
+VJgH`BS@mfT4J:TlKA>RUh1
+!s100 LM2:M<W34`8Dk4EdA2IlO0
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R14
+!i113 0
+R12
+R13

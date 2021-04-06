@@ -1,0 +1,550 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim top 
+# Start time: 13:22:26 on Apr 06,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: ../tb/monitor.sv(50): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.DUT(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.dut_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.fpmul(pipeline)#1
+# Loading work.fpmul_stage1(struct)#1
+# Loading work.unpackfp(unpackfp)#1
+# Loading work.fpmul_stage2(struct)#1
+# Loading work.mbe_multiplier(beh)#1
+# Loading work.dadda_tree(beh)#1
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fpmul_stage3(struct)#1
+# Loading work.fpnormalize(fpnormalize)#1
+# Loading work.fpround(fpround)#1
+# Loading work.fpmul_stage4(struct)#1
+# Loading work.packfp(packfp)#1
+# ** Warning: (vsim-3839) Variable '/top/out/data', driven via a port connection, is multiply driven. See ../src/DUT.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul File: ../src/DUT.sv Line: 9
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit::driver File: ../tb/driver.sv Line: 68
+# Loading /software/mentor/questa10.7c/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+run 4 us
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/fp_mul/multiplier_under_test/I2
+# UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 7  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 12  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 5 ns  Iteration: 12  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/fp_mul/multiplier_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 10  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 10  Instance: /top/fp_mul/multiplier_under_test/I2/our_component/dadda
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 3  Instance: /top/fp_mul/multiplier_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 25 ns  Iteration: 3  Instance: /top/fp_mul/multiplier_under_test/I3/I11
+# Inputs A = 00000000000000000000000000000000 (0.000000), input B = 00000000000000000000000000000000 (-288236870142263296.000000)
+# refmod output for comparison: 00000000000000000000000000000000 	 (0.000000)
+# DUT output for comparison: 00000000000000000000000000000000 	 (0.000000)
+# UVM_INFO @ 45: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000000000000000000000000000000 (-0.000000), input B = 00000000000000000000000000000000 (1048581.750000)
+# refmod output for comparison: 00000000000000000000000000000000 	 (0.000000)
+# DUT output for comparison: 00000000000000000000000000000000 	 (0.000000)
+# UVM_INFO @ 75: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111101100000000000000000011011 (0.062500), input B = 01001001100000000000000011110101 (1048606.625000)
+# refmod output for comparison: 10101010000000000000000011010110 	 (-0.000000)
+# DUT output for comparison: 10101010000000000000000011010110 	 (-0.000000)
+# UVM_INFO @ 105: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010011000000000000000000010110 (-0.000000), input B = 01011101100000000000000010100111 (1152944456912076800.000000)
+# refmod output for comparison: 10110101100000000000000000110100 	 (-0.000001)
+# DUT output for comparison: 10110101100000000000000000110100 	 (-0.000001)
+# UVM_INFO @ 135: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00110101000000000000000000010100 (0.000000), input B = 01000011000000000000000000110110 (128.000824)
+# refmod output for comparison: 01000111100000000000000100010000 	 (65538.125000)
+# DUT output for comparison: 01000111100000000000000100010000 	 (65538.125000)
+# UVM_INFO @ 165: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10001010100000000000000000011100 (-0.000000), input B = 11100001000000000000000011010000 (-147577611764373651456.000000)
+# refmod output for comparison: 10110001000000000000000010111101 	 (-0.000000)
+# DUT output for comparison: 10110001000000000000000010111101 	 (-0.000000)
+# UVM_INFO @ 195: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00001010100000000000000000010001 (0.000000), input B = 01100011000000000000000000100101 (2361193656008960901120.000000)
+# refmod output for comparison: 00111000100000000000000001001010 	 (0.000061)
+# DUT output for comparison: 00111000100000000000000001001010 	 (0.000061)
+# UVM_INFO @ 225: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10101010000000000000000000011101 (-0.000000), input B = 01000000000000000000000011101100 (2.000056)
+# refmod output for comparison: 00101100000000000000000011101100 	 (0.000000)
+# DUT output for comparison: 00101100000000000000000011101100 	 (0.000000)
+# UVM_INFO @ 255: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111101000000000000000000011000 (0.031250), input B = 11001101000000000000000010101011 (-134220464.000000)
+# refmod output for comparison: 00101110000000000000000000110110 	 (0.000000)
+# DUT output for comparison: 00101110000000000000000000110110 	 (0.000000)
+# UVM_INFO @ 285: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100111000000000000000000011101 (0.000000), input B = 01010111000000000000000100100000 (140742320193536.000000)
+# refmod output for comparison: 10101010100000000000000100001001 	 (-0.000000)
+# DUT output for comparison: 10101010100000000000000100001001 	 (-0.000000)
+# UVM_INFO @ 315: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00010011100000000000000000001101 (0.000000), input B = 11000110100000000000000001001111 (-16384.154297)
+# refmod output for comparison: 11001010100000000000000011000011 	 (-4194401.500000)
+# DUT output for comparison: 11001010100000000000000011000011 	 (-4194401.500000)
+# UVM_INFO @ 345: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10011010000000000000000000011100 (-0.000000), input B = 11100000100000000000000010001101 (-73788216543954337792.000000)
+# refmod output for comparison: 00111110100000000000000100111101 	 (0.250009)
+# DUT output for comparison: 00111110100000000000000100111101 	 (0.250009)
+# UVM_INFO @ 375: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101111000000000000000000010001 (0.000000), input B = 11011101100000000000000000111100 (-1152929750944055296.000000)
+# refmod output for comparison: 10011010100000000000000001011100 	 (-0.000000)
+# DUT output for comparison: 10011010100000000000000001011100 	 (-0.000000)
+# UVM_INFO @ 405: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10011011000000000000000000010000 (-0.000000), input B = 01000010000000000000000010010110 (32.000572)
+# refmod output for comparison: 00111011000000000000000010101001 	 (0.001953)
+# DUT output for comparison: 00111011000000000000000010101001 	 (0.001953)
+# UVM_INFO @ 435: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100001100000000000000000011011 (0.000000), input B = 01100000000000000000000001111000 (36894015913000435712.000000)
+# refmod output for comparison: 11001101000000000000000001001101 	 (-134218960.000000)
+# DUT output for comparison: 11001101000000000000000001001101 	 (-134218960.000000)
+# UVM_INFO @ 465: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100000000000000000000000001110 (0.000000), input B = 11000010100000000000000010001011 (-64.001060)
+# refmod output for comparison: 10011101100000000000000010100110 	 (-0.000000)
+# DUT output for comparison: 10011101100000000000000010100110 	 (-0.000000)
+# UVM_INFO @ 495: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010000000000000000000000000100 (-0.000000), input B = 01001101000000000000000000011110 (134218208.000000)
+# refmod output for comparison: 01000010000000000000000010010011 	 (32.000561)
+# DUT output for comparison: 01000010000000000000000010010011 	 (32.000561)
+# UVM_INFO @ 525: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000010000000000000000000011001 (0.000000), input B = 11000011000000000000000010100110 (-128.002533)
+# refmod output for comparison: 10100011000000000000000010011001 	 (-0.000000)
+# DUT output for comparison: 10100011000000000000000010011001 	 (-0.000000)
+# UVM_INFO @ 555: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10110100100000000000000000001111 (-0.000000), input B = 01010101100000000000000000110011 (17592292999168.000000)
+# refmod output for comparison: 10011101100000000000000000100010 	 (-0.000000)
+# DUT output for comparison: 10011101100000000000000000100010 	 (-0.000000)
+# UVM_INFO @ 585: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111110000000000000000000010011 (-0.125000), input B = 01010101100000000000000010000111 (17592469159936.000000)
+# refmod output for comparison: 10000101100000000000000010111111 	 (-0.000000)
+# DUT output for comparison: 10000101100000000000000010111111 	 (-0.000000)
+# UVM_INFO @ 615: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111110100000000000000000001000 (-0.250000), input B = 11011110100000000000000000001110 (-4611693715008782336.000000)
+# refmod output for comparison: 11001010100000000000000001000010 	 (-4194337.000000)
+# DUT output for comparison: 11001010100000000000000001000010 	 (-4194337.000000)
+# UVM_INFO @ 645: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000100100000000000000000011101 (-0.000000), input B = 11011101000000000000000100000001 (-576478413208944640.000000)
+# refmod output for comparison: 11010100000000000000000010011010 	 (-2199063625728.000000)
+# DUT output for comparison: 11010100000000000000000010011010 	 (-2199063625728.000000)
+# UVM_INFO @ 675: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011000000000000000000000000101 (0.000000), input B = 11010000000000000000000000001000 (-8589942784.000000)
+# refmod output for comparison: 01011101100000000000000000010110 	 (1152924528263823360.000000)
+# DUT output for comparison: 01011101100000000000000000010110 	 (1152924528263823360.000000)
+# UVM_INFO @ 705: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010100000000000000000000011011 (-0.000000), input B = 01010110100000000000000010110101 (70370262515712.000000)
+# refmod output for comparison: 00100010000000000000000100011110 	 (0.000000)
+# DUT output for comparison: 00100010000000000000000100011110 	 (0.000000)
+# UVM_INFO @ 735: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10110001000000000000000000010000 (-0.000000), input B = 01011101100000000000000001011110 (1152934423868473344.000000)
+# refmod output for comparison: 10101000100000000000000000001101 	 (-0.000000)
+# DUT output for comparison: 10101000100000000000000000001101 	 (-0.000000)
+# UVM_INFO @ 765: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101101000000000000000000011101 (0.000000), input B = 01010110000000000000000100010011 (35185525522432.000000)
+# refmod output for comparison: 10101011000000000000000011010000 	 (-0.000000)
+# DUT output for comparison: 10101011000000000000000011010000 	 (-0.000000)
+# UVM_INFO @ 795: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00001001000000000000000000010100 (0.000000), input B = 01000100000000000000000000100100 (512.002197)
+# refmod output for comparison: 11001111000000000000000001101110 	 (-2147511808.000000)
+# DUT output for comparison: 11001111000000000000000001101110 	 (-2147511808.000000)
+# UVM_INFO @ 825: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10001100100000000000000000010010 (-0.000000), input B = 11011001000000000000000001001100 (-2251820214779904.000000)
+# refmod output for comparison: 01000011100000000000000100110000 	 (256.009277)
+# DUT output for comparison: 01000011100000000000000100110000 	 (256.009277)
+# UVM_INFO @ 855: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00110100100000000000000000010001 (0.000000), input B = 01000101100000000000000001111010 (4096.059570)
+# refmod output for comparison: 00001101100000000000000000111000 	 (0.000000)
+# DUT output for comparison: 00001101100000000000000000111000 	 (0.000000)
+# UVM_INFO @ 885: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010011000000000000000000010011 (-0.000000), input B = 01000111100000000000000010110100 (65537.406250)
+# refmod output for comparison: 00100110000000000000000001011110 	 (0.000000)
+# DUT output for comparison: 00100110000000000000000001011110 	 (0.000000)
+# UVM_INFO @ 915: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000101000000000000000000010010 (-0.000000), input B = 01011100000000000000000000101001 (144115892450492416.000000)
+# refmod output for comparison: 00111010100000000000000010001011 	 (0.000977)
+# DUT output for comparison: 00111010100000000000000010001011 	 (0.000977)
+# UVM_INFO @ 945: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111000100000000000000000010111 (0.000061), input B = 01100010100000000000000001011000 (1180604005616386572288.000000)
+# refmod output for comparison: 10011011000000000000000011000111 	 (-0.000000)
+# DUT output for comparison: 10011011000000000000000011000111 	 (-0.000000)
+# UVM_INFO @ 975: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00010101000000000000000000011001 (0.000000), input B = 11000110000000000000000000000010 (-8192.001953)
+# refmod output for comparison: 10100001100000000000000000111011 	 (-0.000000)
+# DUT output for comparison: 10100001100000000000000000111011 	 (-0.000000)
+# UVM_INFO @ 1005: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111101100000000000000000001001 (-0.062500), input B = 11011010000000000000000000001100 (-9007212139642880.000000)
+# refmod output for comparison: 01011011100000000000000001101111 	 (72058547520667648.000000)
+# DUT output for comparison: 01011011100000000000000001101111 	 (72058547520667648.000000)
+# UVM_INFO @ 1035: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101111100000000000000000010100 (0.000000), input B = 01100001100000000000000010111011 (295154484656933437440.000000)
+# refmod output for comparison: 10011011100000000000000000011011 	 (-0.000000)
+# DUT output for comparison: 10011011100000000000000000011011 	 (-0.000000)
+# UVM_INFO @ 1065: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011001100000000000000000011010 (0.000000), input B = 01100011000000000000000000001001 (2361185774709613002752.000000)
+# refmod output for comparison: 01011000000000000000000000010101 	 (562951362707456.000000)
+# DUT output for comparison: 01011000000000000000000000010101 	 (562951362707456.000000)
+# UVM_INFO @ 1095: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111010000000000000000000001100 (-0.000488), input B = 01010110100000000000000001100100 (70369583038464.000000)
+# refmod output for comparison: 01010001100000000000000011001111 	 (68721172480.000000)
+# DUT output for comparison: 01010001100000000000000011001111 	 (68721172480.000000)
+# UVM_INFO @ 1125: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100110100000000000000000000100 (-0.000000), input B = 01011111100000000000000000010101 (18446790253197918208.000000)
+# refmod output for comparison: 00111101000000000000000000100011 	 (0.031250)
+# DUT output for comparison: 00111101000000000000000000100011 	 (0.031250)
+# UVM_INFO @ 1155: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000011100000000000000000000001 (-0.000000), input B = 11010001000000000000000000000101 (-34359758848.000000)
+# refmod output for comparison: 11010001000000000000000001110000 	 (-34360197120.000000)
+# DUT output for comparison: 11010001000000000000000001110000 	 (-34360197120.000000)
+# UVM_INFO @ 1185: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111100100000000000000000011010 (0.015625), input B = 11010100000000000000000011110000 (-2199086170112.000000)
+# refmod output for comparison: 11000110100000000000000000011001 	 (-16384.048828)
+# DUT output for comparison: 11000110100000000000000000011001 	 (-16384.048828)
+# UVM_INFO @ 1215: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000100100000000000000000000001 (0.000000), input B = 11010000000000000000000000000001 (-8589935616.000000)
+# refmod output for comparison: 00010101000000000000000000000110 	 (0.000000)
+# DUT output for comparison: 00010101000000000000000000000110 	 (0.000000)
+# UVM_INFO @ 1245: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100100000000000000000000011100 (0.000000), input B = 01010011000000000000000010110100 (549767610368.000000)
+# refmod output for comparison: 11010001000000000000000100001010 	 (-34360827904.000000)
+# DUT output for comparison: 11010001000000000000000100001010 	 (-34360827904.000000)
+# UVM_INFO @ 1275: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100001000000000000000000011101 (-0.000000), input B = 01010101000000000000000011011011 (8796322660352.000000)
+# refmod output for comparison: 10010101000000000000000000000010 	 (-0.000000)
+# DUT output for comparison: 10010101000000000000000000000010 	 (-0.000000)
+# UVM_INFO @ 1305: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00110001000000000000000000011101 (0.000000), input B = 11011100100000000000000100010011 (-288239825079762944.000000)
+# refmod output for comparison: 00110111100000000000000011010000 	 (0.000015)
+# DUT output for comparison: 00110111100000000000000011010000 	 (0.000015)
+# UVM_INFO @ 1335: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000111100000000000000000011100 (0.000000), input B = 01011001100000000000000010110110 (4503697337876480.000000)
+# refmod output for comparison: 10110110100000000000000011111000 	 (-0.000004)
+# DUT output for comparison: 10110110100000000000000011111000 	 (-0.000004)
+# UVM_INFO @ 1365: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111000000000000000000000011010 (0.000031), input B = 01000010100000000000000010000110 (64.001022)
+# refmod output for comparison: 11001110000000000000000100110000 	 (-536890368.000000)
+# DUT output for comparison: 11001110000000000000000100110000 	 (-536890368.000000)
+# UVM_INFO @ 1395: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100010100000000000000000011000 (0.000000), input B = 01000111000000000000000010100101 (32768.644531)
+# refmod output for comparison: 00100001100000000000000011010010 	 (0.000000)
+# DUT output for comparison: 00100001100000000000000011010010 	 (0.000000)
+# UVM_INFO @ 1425: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111001000000000000000000001001 (-0.000122), input B = 01011000100000000000000000011011 (1125903530721280.000000)
+# refmod output for comparison: 00111011000000000000000010100000 	 (0.001953)
+# DUT output for comparison: 00111011000000000000000010100000 	 (0.001953)
+# UVM_INFO @ 1455: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10110010000000000000000000011011 (-0.000000), input B = 11001011000000000000000010010001 (-8388753.000000)
+# refmod output for comparison: 00101010000000000000000010111101 	 (0.000000)
+# DUT output for comparison: 00101010000000000000000010111101 	 (0.000000)
+# UVM_INFO @ 1485: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000110000000000000000000011011 (0.000000), input B = 01011010100000000000000010111001 (18014795793956864.000000)
+# refmod output for comparison: 11010010000000000000000000100100 	 (-137439543296.000000)
+# DUT output for comparison: 11010010000000000000000000100100 	 (-137439543296.000000)
+# UVM_INFO @ 1515: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000011100000000000000000010001 (0.000000), input B = 01001011000000000000000010000010 (8388738.000000)
+# refmod output for comparison: 00111101100000000000000010101100 	 (0.062501)
+# DUT output for comparison: 00111101100000000000000010101100 	 (0.062501)
+# UVM_INFO @ 1545: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000111100000000000000000011101 (-0.000000), input B = 11010100100000000000000000000100 (-4398048608256.000000)
+# refmod output for comparison: 00100001000000000000000011010100 	 (0.000000)
+# DUT output for comparison: 00100001000000000000000011010100 	 (0.000000)
+# UVM_INFO @ 1575: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010110100000000000000000011000 (-0.000000), input B = 11000000100000000000000011100111 (-4.000110)
+# refmod output for comparison: 00001111000000000000000010010011 	 (0.000000)
+# DUT output for comparison: 00001111000000000000000010010011 	 (0.000000)
+# UVM_INFO @ 1605: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100000000000000000000000011101 (0.000000), input B = 11011110100000000000000001111110 (-4611755287659937792.000000)
+# refmod output for comparison: 00011100100000000000000000100001 	 (0.000000)
+# DUT output for comparison: 00011100100000000000000000100001 	 (0.000000)
+# UVM_INFO @ 1635: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000011000000000000000000010101 (-0.000000), input B = 01001111100000000000000010110010 (4295058432.000000)
+# refmod output for comparison: 00010111100000000000000011111111 	 (0.000000)
+# DUT output for comparison: 00010111100000000000000011111111 	 (0.000000)
+# UVM_INFO @ 1665: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101000100000000000000000011101 (0.000000), input B = 01000101100000000000000100010000 (4096.132812)
+# refmod output for comparison: 10111111000000000000000010011011 	 (-0.500009)
+# DUT output for comparison: 10111111000000000000000010011011 	 (-0.500009)
+# UVM_INFO @ 1695: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000110000000000000000000011000 (0.000000), input B = 01000011100000000000000010111001 (256.005646)
+# refmod output for comparison: 10010011000000000000000011000111 	 (-0.000000)
+# DUT output for comparison: 10010011000000000000000011000111 	 (-0.000000)
+# UVM_INFO @ 1725: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111110000000000000000000001110 (0.125000), input B = 01010100100000000000000001100101 (4398099464192.000000)
+# refmod output for comparison: 00101110100000000000000100101101 	 (0.000000)
+# DUT output for comparison: 00101110100000000000000100101101 	 (0.000000)
+# UVM_INFO @ 1755: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100110000000000000000000010110 (-0.000000), input B = 01010000100000000000000010001100 (17180155904.000000)
+# refmod output for comparison: 00001010000000000000000011010001 	 (0.000000)
+# DUT output for comparison: 00001010000000000000000011010001 	 (0.000000)
+# UVM_INFO @ 1785: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011001000000000000000000000010 (0.000000), input B = 11001111100000000000000000001000 (-4294971392.000000)
+# refmod output for comparison: 01010011000000000000000001110011 	 (549763350528.000000)
+# DUT output for comparison: 01010011000000000000000001110011 	 (549763350528.000000)
+# UVM_INFO @ 1815: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10101001000000000000000000010001 (-0.000000), input B = 11001011100000000000000001010111 (-16777390.000000)
+# refmod output for comparison: 10110111000000000000000010100010 	 (-0.000008)
+# DUT output for comparison: 10110111000000000000000010100010 	 (-0.000008)
+# UVM_INFO @ 1845: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00010000000000000000000000011010 (0.000000), input B = 11000100100000000000000011100001 (-1024.027466)
+# refmod output for comparison: 10101001000000000000000000001010 	 (-0.000000)
+# DUT output for comparison: 10101001000000000000000000001010 	 (-0.000000)
+# UVM_INFO @ 1875: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100000000000000000000000010110 (-0.000000), input B = 01001000100000000000000000001011 (262144.343750)
+# refmod output for comparison: 00110101000000000000000001101000 	 (0.000000)
+# DUT output for comparison: 00110101000000000000000001101000 	 (0.000000)
+# UVM_INFO @ 1905: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111110000000000000000000001001 (0.125000), input B = 11001111000000000000000000100101 (-2147493120.000000)
+# refmod output for comparison: 10010101000000000000000011111011 	 (-0.000000)
+# DUT output for comparison: 10010101000000000000000011111011 	 (-0.000000)
+# UVM_INFO @ 1935: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100000100000000000000000000111 (-0.000000), input B = 11100000100000000000000000100101 (-73787301750280028160.000000)
+# refmod output for comparison: 10101001000000000000000000100001 	 (-0.000000)
+# DUT output for comparison: 10101001000000000000000000100001 	 (-0.000000)
+# UVM_INFO @ 1965: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00001011100000000000000000010011 (0.000000), input B = 11011100100000000000000000000100 (-288230513590665216.000000)
+# refmod output for comparison: 11001101100000000000000000101110 	 (-268436928.000000)
+# DUT output for comparison: 11001101100000000000000000101110 	 (-268436928.000000)
+# UVM_INFO @ 1995: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010111000000000000000000011011 (-0.000000), input B = 11011011100000000000000011011111 (-72059509593341952.000000)
+# refmod output for comparison: 01000001100000000000000000101100 	 (16.000084)
+# DUT output for comparison: 01000001100000000000000000101100 	 (16.000084)
+# UVM_INFO @ 2025: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10110001000000000000000000000010 (-0.000000), input B = 11010011000000000000000000001100 (-549756600320.000000)
+# refmod output for comparison: 10101000100000000000000000010111 	 (-0.000000)
+# DUT output for comparison: 10101000100000000000000000010111 	 (-0.000000)
+# UVM_INFO @ 2055: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100010100000000000000000000110 (-0.000000), input B = 01011011100000000000000000011001 (72057808786292736.000000)
+# refmod output for comparison: 00110011000000000000000011111010 	 (0.000000)
+# DUT output for comparison: 00110011000000000000000011111010 	 (0.000000)
+# UVM_INFO @ 2085: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10010100100000000000000000011010 (-0.000000), input B = 01011010000000000000000001101101 (9007316292599808.000000)
+# refmod output for comparison: 01000100100000000000000000001110 	 (1024.001709)
+# DUT output for comparison: 01000100100000000000000000001110 	 (1024.001709)
+# UVM_INFO @ 2115: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000101100000000000000000010100 (0.000000), input B = 11010001000000000000000001000010 (-34360008704.000000)
+# refmod output for comparison: 10111110100000000000000000011111 	 (-0.250001)
+# DUT output for comparison: 10111110100000000000000000011111 	 (-0.250001)
+# UVM_INFO @ 2145: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10101100100000000000000000011101 (-0.000000), input B = 11001001100000000000000011011100 (-1048603.500000)
+# refmod output for comparison: 10101111000000000000000010000111 	 (-0.000000)
+# DUT output for comparison: 10101111000000000000000010000111 	 (-0.000000)
+# UVM_INFO @ 2175: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100110100000000000000000010101 (-0.000000), input B = 11010101100000000000000001110111 (-17592435605504.000000)
+# refmod output for comparison: 10010111000000000000000001010110 	 (-0.000000)
+# DUT output for comparison: 10010111000000000000000001010110 	 (-0.000000)
+# UVM_INFO @ 2205: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111001000000000000000000011101 (-0.000122), input B = 01010001100000000000000001010111 (68720189440.000000)
+# refmod output for comparison: 00110110100000000000000011111001 	 (0.000004)
+# DUT output for comparison: 00110110100000000000000011111001 	 (0.000004)
+# UVM_INFO @ 2235: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111110000000000000000000010110 (-0.125000), input B = 11010000000000000000000001000011 (-8590003200.000000)
+# refmod output for comparison: 00111100100000000000000010001100 	 (0.015625)
+# DUT output for comparison: 00111100100000000000000010001100 	 (0.015625)
+# UVM_INFO @ 2265: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111001100000000000000000000100 (-0.000244), input B = 11000110000000000000000000011101 (-8192.028320)
+# refmod output for comparison: 11001011000000000000000001110100 	 (-8388724.000000)
+# DUT output for comparison: 11001011000000000000000001110100 	 (-8388724.000000)
+# UVM_INFO @ 2295: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00110100100000000000000000011001 (0.000000), input B = 11010110100000000000000000000010 (-70368760954880.000000)
+# refmod output for comparison: 01001110100000000000000001011001 	 (1073753216.000000)
+# DUT output for comparison: 01001110100000000000000001011001 	 (1073753216.000000)
+# UVM_INFO @ 2325: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101001100000000000000000011001 (0.000000), input B = 11010001000000000000000011101010 (-34360696832.000000)
+# refmod output for comparison: 01000000000000000000000000100001 	 (2.000008)
+# DUT output for comparison: 01000000000000000000000000100001 	 (2.000008)
+# UVM_INFO @ 2355: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011101100000000000000000010011 (0.000000), input B = 01011100000000000000000001010110 (144116665544605696.000000)
+# refmod output for comparison: 11001011100000000000000000011011 	 (-16777270.000000)
+# DUT output for comparison: 11001011100000000000000000011011 	 (-16777270.000000)
+# UVM_INFO @ 2385: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101100000000000000000000010101 (0.000000), input B = 01011000100000000000000011001011 (1125927153041408.000000)
+# refmod output for comparison: 10111011000000000000000100000011 	 (-0.001953)
+# DUT output for comparison: 10111011000000000000000100000011 	 (-0.001953)
+# UVM_INFO @ 2415: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011011000000000000000000001101 (0.000000), input B = 01010000100000000000000001111010 (17180119040.000000)
+# refmod output for comparison: 00111010000000000000000001101001 	 (0.000488)
+# DUT output for comparison: 00111010000000000000000001101001 	 (0.000488)
+# UVM_INFO @ 2445: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000011100000000000000000011100 (0.000000), input B = 11000100000000000000000000000110 (-512.000366)
+# refmod output for comparison: 01000101000000000000000011100000 	 (2048.054688)
+# DUT output for comparison: 01000101000000000000000011100000 	 (2048.054688)
+# UVM_INFO @ 2475: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10110000000000000000000000001101 (-0.000000), input B = 01010000100000000000000000001100 (17179893760.000000)
+# refmod output for comparison: 00101100000000000000000010000111 	 (0.000000)
+# DUT output for comparison: 00101100000000000000000010000111 	 (0.000000)
+# UVM_INFO @ 2505: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00000011100000000000000000011011 (0.000000), input B = 11000110000000000000000010101110 (-8192.169922)
+# refmod output for comparison: 10001000000000000000000000100010 	 (-0.000000)
+# DUT output for comparison: 10001000000000000000000000100010 	 (-0.000000)
+# UVM_INFO @ 2535: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00100111100000000000000000001010 (0.000000), input B = 01001010100000000000000000101111 (4194327.500000)
+# refmod output for comparison: 11000001000000000000000000011001 	 (-8.000024)
+# DUT output for comparison: 11000001000000000000000000011001 	 (-8.000024)
+# UVM_INFO @ 2565: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10111101100000000000000000010110 (-0.062500), input B = 01100000100000000000000000010110 (73787169808884695040.000000)
+# refmod output for comparison: 10001010000000000000000011001001 	 (-0.000000)
+# DUT output for comparison: 10001010000000000000000011001001 	 (-0.000000)
+# UVM_INFO @ 2595: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10000001000000000000000000010110 (-0.000000), input B = 01011010100000000000000010101100 (18014767876669440.000000)
+# refmod output for comparison: 00110010100000000000000000111001 	 (0.000000)
+# DUT output for comparison: 00110010100000000000000000111001 	 (0.000000)
+# UVM_INFO @ 2625: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10101010000000000000000000011001 (-0.000000), input B = 11000111000000000000000011010101 (-32768.832031)
+# refmod output for comparison: 11011110100000000000000000101100 	 (-4611710207683198976.000000)
+# DUT output for comparison: 11011110100000000000000000101100 	 (-4611710207683198976.000000)
+# UVM_INFO @ 2655: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011001100000000000000000011100 (0.000000), input B = 01100000000000000000000100000101 (36894636037558501376.000000)
+# refmod output for comparison: 10011100000000000000000011000010 	 (-0.000000)
+# DUT output for comparison: 10011100000000000000000011000010 	 (-0.000000)
+# UVM_INFO @ 2685: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101011000000000000000000011100 (0.000000), input B = 01011001100000000000000100001101 (4503744045645824.000000)
+# refmod output for comparison: 00110001100000000000000011101110 	 (0.000000)
+# DUT output for comparison: 00110001100000000000000011101110 	 (0.000000)
+# UVM_INFO @ 2715: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011110000000000000000000001100 (0.000000), input B = 11000010100000000000000000111011 (-64.000450)
+# refmod output for comparison: 00111010000000000000000100100001 	 (0.000488)
+# DUT output for comparison: 00111010000000000000000100100001 	 (0.000488)
+# UVM_INFO @ 2745: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011101100000000000000000011010 (0.000000), input B = 11011001000000000000000011001011 (-2251854306082816.000000)
+# refmod output for comparison: 01000101000000000000000100101001 	 (2048.072510)
+# DUT output for comparison: 01000101000000000000000100101001 	 (2048.072510)
+# UVM_INFO @ 2775: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00011011000000000000000000000100 (0.000000), input B = 11000000100000000000000000000110 (-4.000003)
+# refmod output for comparison: 10100001000000000000000001000111 	 (-0.000000)
+# DUT output for comparison: 10100001000000000000000001000111 	 (-0.000000)
+# UVM_INFO @ 2805: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100101100000000000000000000111 (-0.000000), input B = 11011101100000000000000000101111 (-1152927964237660160.000000)
+# refmod output for comparison: 10110111000000000000000011100101 	 (-0.000008)
+# DUT output for comparison: 10110111000000000000000011100101 	 (-0.000008)
+# UVM_INFO @ 2835: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00111011000000000000000000010001 (0.001953), input B = 01011100000000000000000000011010 (144115634752454656.000000)
+# refmod output for comparison: 10011100000000000000000000001010 	 (-0.000000)
+# DUT output for comparison: 10011100000000000000000000001010 	 (-0.000000)
+# UVM_INFO @ 2865: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10100011100000000000000000010011 (-0.000000), input B = 01010000000000000000000010011110 (8590096384.000000)
+# refmod output for comparison: 01000011100000000000000000110110 	 (256.001648)
+# DUT output for comparison: 01000011100000000000000000110110 	 (256.001648)
+# UVM_INFO @ 2895: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10101001100000000000000000011001 (-0.000000), input B = 11000110100000000000000010100110 (-16384.324219)
+# refmod output for comparison: 01010111100000000000000000101011 	 (281476419551232.000000)
+# DUT output for comparison: 01010111100000000000000000101011 	 (281476419551232.000000)
+# UVM_INFO @ 2925: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101111100000000000000000010111 (0.000000), input B = 11011001100000000000000001111100 (-4503666199363584.000000)
+# refmod output for comparison: 10110100000000000000000010110001 	 (-0.000000)
+# DUT output for comparison: 10110100000000000000000010110001 	 (-0.000000)
+# UVM_INFO @ 2955: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00001111100000000000000000011100 (0.000000), input B = 11011000000000000000000011000110 (-562963240976384.000000)
+# refmod output for comparison: 00110000100000000000000010111111 	 (0.000000)
+# DUT output for comparison: 00110000100000000000000010111111 	 (0.000000)
+# UVM_INFO @ 2985: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 10011101000000000000000000000111 (-0.000000), input B = 11001101000000000000000000100010 (-134218272.000000)
+# refmod output for comparison: 11001001100000000000000010010011 	 (-1048594.375000)
+# DUT output for comparison: 11001001100000000000000010010011 	 (-1048594.375000)
+# UVM_INFO @ 3015: uvm_test_top.env_h.comp [Comparator Match] 
+# Inputs A = 00101100000000000000000000011101 (0.000000), input B = 01000001100000000000000010010110 (16.000286)
+# refmod output for comparison: 10101000000000000000000011100010 	 (-0.000000)
+# DUT output for comparison: 10101000000000000000000011100010 	 (-0.000000)
+# UVM_INFO @ 3045: uvm_test_top.env_h.comp [Comparator Match] 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3045: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/env.sv(42) @ 3045: uvm_test_top.env_h [env] Reporting matched 101
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  106
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Comparator Match]   101
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [env]     1
+# ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3045 ns  Iteration: 66  Instance: /top
+# Break in Task uvm_pkg/uvm_root::run_test at /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 13:24:32 on Apr 06,2021, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 31
